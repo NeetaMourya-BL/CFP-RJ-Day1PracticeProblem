@@ -1,6 +1,7 @@
 import logo from './logo.png';
 import './App.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class App extends React.Component {
   url = 'https://www.bridgelabz.com/'
@@ -42,6 +43,7 @@ class App extends React.Component {
                 </div>
                 <div>
                   <img src={logo} onClick={this.onClick}
+                  <Link to ="/pages/Home"> Home</Link>
                     alt="This Bridgelabz logo: a Bridge to Employment through lab works" />
                   <input onChange={this.onNameChnage} />
                 </div>
