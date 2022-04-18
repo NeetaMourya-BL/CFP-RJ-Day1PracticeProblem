@@ -10,8 +10,8 @@ function TakeRouter() {
             <BrowserRouter >
                 <Switch>
                     <Route exact path="/" component={App} />
-                    <Route exact path="/Home" component={Home} />
-                    <Route exact path="/Contact" component={Contact} />
+                    <Route path="/Home" component={Home} />
+                    <Route path="/Contact" component={Contact} />
                 </Switch>
             </BrowserRouter>
         </div>
