@@ -28,9 +28,6 @@ export default function Home() {
                 <sidebar class="sideBarItem sideBarRightItem">Right Side Bar</sidebar>
             </div>
             <footer class="footerContainer">Footer</footer>
-
-            <Link className="add-button" to="/pages/Dashboard">Dashboard</Link> <br></br>
-
         </body>
     )
 }
